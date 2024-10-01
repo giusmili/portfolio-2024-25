@@ -1,1 +1,26 @@
 @import url(./reset.css);
+
+header h1{
+    line-height: 7.6rem;
+    text-align: center;
+    font-size: xx-large;
+    color: #f7630c;
+}
+
+footer{
+    text-align: center;
+}
+
+figure, section{
+    max-width: 100rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+figure img{
+    border-radius: .8rem;
+}
+figure figcaption h2, section h3{
+    text-align: center;
+    line-height: 4.5rem;
+    color: #fce100;
+}
