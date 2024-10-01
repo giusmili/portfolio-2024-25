@@ -1,0 +1,46 @@
+/* Reset CSS avec rem */
+
+
+html {
+    font-size: 62.5%; /* 1rem = 10px, facilite les calculs (10px/16px = 62.5%) */
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1.6rem sans-serif; /* Définit une taille de texte par défaut de 16px */
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    
+}
+
+ol, ul {
+    list-style: none;
+    
+}
+
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button, input, select, textarea {
+    font: inherit;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
