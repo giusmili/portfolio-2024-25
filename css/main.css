@@ -12,7 +12,7 @@ header h1{
      font-weight: 800;
 }
 
-footer{
+footer *{
     text-align: center;
 }
 figure figcaption p{
