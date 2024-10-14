@@ -8,7 +8,7 @@ header > h1{
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: rgb(163, 9, 9); 
+  color: #ea4335; 
   line-height: 8.5rem;
   font-size: 7rem;
 }
@@ -20,4 +20,7 @@ figure, section{
 
 figure img{
     width: 100%; /* 100% de la largeur du parent */ 
+}
+footer p{
+    text-align: center;
 }

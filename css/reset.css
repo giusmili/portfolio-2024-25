@@ -6,8 +6,10 @@ html{
 body{
     font: 1.6rem sans-serif; /* serif default */
     margin: 0;
+    background-color: #2b2a33;
     line-height: 1.6; /* interlignage */
     letter-spacing: 0.1rem; /* 1px */
+    color: #ffffff;
 
 }
 h1,
