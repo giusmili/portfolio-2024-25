@@ -13,7 +13,8 @@ header > h1{
   font-size: 7rem;
   text-shadow: .2rem .2rem rgb(255, 179, 0), 
   -.2rem -.2rem   rgb(255, 179, 0),
-  .2rem -.2rem   rgb(255, 179, 0);
+  .2rem -.2rem   rgb(255, 179, 0), 
+  -.2rem .2rem rgb(255, 179, 0);
 }
 
 figure, section{
@@ -23,6 +24,7 @@ figure, section{
 
 figure img{
     width: 100%; /* 100% de la largeur du parent */ 
+    filter: drop-shadow(0 0 2rem #dc143c);
 }
 footer p{
     text-align: center;
