@@ -11,10 +11,13 @@ header > h1{
   color: #ea4335; 
   line-height: 8.5rem;
   font-size: 7rem;
+  text-shadow: .2rem .2rem rgb(255, 179, 0), 
+  -.2rem -.2rem   rgb(255, 179, 0),
+  .2rem -.2rem   rgb(255, 179, 0);
 }
 
 figure, section{
-    max-width: 108rem;
+    max-width: 80rem;
     margin: 1rem auto;
 }
 
