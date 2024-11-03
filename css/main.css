@@ -27,16 +27,17 @@ figure img{
     width: 100%; /* 100% de la largeur du parent */ 
     filter: drop-shadow(0 0 2rem #dc143c);
 }
-.gallery-primary{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* galerie */
 .gallery-primary figcaption{
     display: block;
     width: 100%;
-    text-align: center;
     margin: 2rem 0;
+    text-align: center;
+}
+.gallery-primary{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .gallery-primary img{
     width: inherit;
