@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url(./reset.css);
 
-/* theme */
+/* theme and variable*/
+:root{ /* pseudo class */
+    --button-primary: rgb(162, 155, 254);
+}
 
 header > h1{
   font-family: "Rubik Wet Paint", sans-serif;
@@ -42,8 +45,26 @@ figure.gallery-primary figcaption{
     line-height: 4.5rem;
     padding: 1rem 0;
 }
+.btn-default{ /* default button */
+    display: inline-block;
+    width: max-content;
+    line-height: 2.5rem;
+    padding: .8rem;
+    color: #222;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: .4rem;
+    text-transform: capitalize;
+}
+/* theme button */
+.btn-primary{
+    background-color: var(--button-primary);
+}
+.btn-secondary{
+    background-color: rgba(214, 48, 49, .9);
+    color: #fff;
+}
 
-/* galerie figcaption titre */
 
 
 figure.gallery-primary img{
