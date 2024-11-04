@@ -43,7 +43,7 @@ figure.gallery-primary figcaption{
     text-transform: uppercase;
     text-align: center;
     line-height: 4.5rem;
-    padding: 1rem 0;
+    padding: 1.6rem 0;
 }
 .btn-default{ /* default button */
     display: inline-block;
