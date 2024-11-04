@@ -28,13 +28,26 @@ figure img{
     filter: drop-shadow(0 0 2rem #dc143c);
 }
 /* galerie primary */
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+figure.gallery-primary figcaption{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1rem 0;
+}
 
 /* galerie figcaption titre */
 
 
-.gallery-primary img{
-    width: inherit;
+figure.gallery-primary img{
+    width: auto;
     height: 15rem;
     
 }
