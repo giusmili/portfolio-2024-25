@@ -48,13 +48,17 @@ figure.gallery-primary figcaption{
 .btn-default{ /* default button */
     display: inline-block;
     width: max-content;
-    line-height: 2.5rem;
+    line-height: 2.2rem;
     padding: .8rem;
     color: #222;
     background-color: #ccc;
     text-decoration: none;
     border-radius: .4rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  
 }
 /* theme button */
 .btn-primary{
